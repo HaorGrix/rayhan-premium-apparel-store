@@ -1,0 +1,4220 @@
+# 02_UI_UX_DESIGN_SYSTEM_SPECIFICATION.txt
+
+DOCUMENT PURPOSE
+
+This document defines the complete visual language, interaction system, design philosophy, layout mathematics, accessibility standards, responsive behavior, animation language, and user experience principles for the Fashion & Apparel eCommerce Platform.
+
+It is the single source of truth for every frontend design decision.
+
+No designer, frontend engineer, or AI coding agent may invent UI patterns outside this specification.
+
+If a design rule is missing, the AI must stop and ask the project owner.
+
+---
+
+# CHAPTER 1
+
+BRAND IDENTITY
+
+Generate a complete Brand Identity Specification.
+
+Include:
+
+• Brand Vision
+
+• Brand Mission
+
+• Brand Values
+
+• Brand Personality
+
+• Brand Archetype
+
+• Emotional Positioning
+
+• Customer Perception Goals
+
+• Brand Story
+
+• Tone of Voice
+
+• Visual Identity
+
+• Luxury Positioning
+
+• Fashion Positioning
+
+• Competitive Positioning
+
+• Customer Trust Signals
+
+• Brand Promise
+
+The AI shall explain WHY every design decision supports the brand.
+
+---
+
+# CHAPTER 2
+
+DESIGN PHILOSOPHY
+
+Define the overall design philosophy.
+
+Examples include:
+
+• Luxury Minimalism
+
+• Editorial Fashion
+
+• Premium Product First
+
+• Simplicity
+
+• Timeless Design
+
+• High-end Shopping Experience
+
+• Frictionless Checkout
+
+• Information Hierarchy
+
+• Accessibility First
+
+• Mobile First
+
+• Performance First
+
+Every principle must include:
+
+Purpose
+
+Business Value
+
+Examples
+
+Anti-patterns
+
+Acceptance Criteria
+
+---
+
+# CHAPTER 3
+
+COMPETITOR DESIGN RESEARCH
+
+Study and extract best practices from:
+
+Apple
+
+Nike
+
+Zara
+
+COS
+
+Uniqlo
+
+Shopify
+
+Stripe
+
+Vercel
+
+Linear
+
+Notion
+
+Airbnb
+
+Do NOT copy their designs.
+
+Instead identify:
+
+Navigation patterns
+
+Typography systems
+
+Spacing systems
+
+Product presentation
+
+Editorial layouts
+
+Checkout UX
+
+Motion
+
+Trust building
+
+Accessibility
+
+Performance
+
+State clearly what should inspire the project and what should be avoided.
+
+---
+
+# CHAPTER 4
+
+COLOR SYSTEM
+
+Generate:
+
+Primary Colors
+
+Secondary Colors
+
+Neutral Colors
+
+Surface Colors
+
+Background Colors
+
+Text Colors
+
+Success
+
+Warning
+
+Danger
+
+Information
+
+Border Colors
+
+Hover Colors
+
+Disabled Colors
+
+Dark Theme Colors
+
+Focus Ring Colors
+
+Color Accessibility Rules
+
+Color Psychology
+
+Contrast Ratios
+
+Usage Rules
+
+Forbidden Color Combinations
+
+---
+
+# CHAPTER 5
+
+TYPOGRAPHY SYSTEM
+
+Generate:
+
+Primary Font
+
+Secondary Font
+
+Fallback Fonts
+
+Heading Scale
+
+Body Scale
+
+Caption Scale
+
+Button Typography
+
+Letter Spacing
+
+Paragraph Width
+
+Reading Rhythm
+
+Line Height
+
+Responsive Typography
+
+Optical Alignment
+
+Font Loading Strategy
+
+Performance Optimization
+
+Accessibility
+
+---
+
+# CHAPTER 6
+
+LAYOUT SYSTEM
+
+Generate:
+
+Grid System
+
+Container Widths
+
+Responsive Breakpoints
+
+Spacing Scale
+
+Section Layouts
+
+Content Width
+
+Card Width
+
+Product Grid
+
+Dashboard Grid
+
+Admin Grid
+
+Visual Rhythm
+
+White Space Rules
+
+Alignment Rules
+
+Maximum Content Width
+
+---
+
+# CHAPTER 7
+
+DESIGN TOKENS
+
+Generate all design tokens.
+
+Colors
+
+Typography
+
+Spacing
+
+Radius
+
+Elevation
+
+Opacity
+
+Transitions
+
+Shadows
+
+Borders
+
+Icons
+
+Breakpoints
+
+Animations
+
+Every token must have naming conventions and usage rules.
+
+---
+
+# CHAPTER 8
+
+ICONOGRAPHY
+
+Define:
+
+Icon Style
+
+Icon Sizes
+
+Stroke Width
+
+Filled vs Outline
+
+Usage Rules
+
+Accessibility
+
+Consistency Rules
+
+---
+
+# CHAPTER 9
+
+IMAGERY
+
+Product Photography Standards
+
+Editorial Images
+
+Lifestyle Images
+
+Aspect Ratios
+
+Image Optimization
+
+Compression
+
+Responsive Images
+
+Lazy Loading
+
+Zoom Behavior
+
+Gallery Rules
+
+---
+
+# CHAPTER 10
+
+MOTION DESIGN
+
+Animation Philosophy
+
+Interaction Feedback
+
+Hover Animations
+
+Button Motion
+
+Product Card Motion
+
+Page Transition
+
+Loading Motion
+
+Skeleton Motion
+
+Checkout Animation
+
+Duration
+
+Easing
+
+Spring Physics
+
+Reduced Motion
+
+Accessibility
+
+Performance Budget
+
+---
+
+# CHAPTER 11
+
+COMPONENT DESIGN RULES
+
+Buttons
+
+Inputs
+
+Cards
+
+Badges
+
+Tags
+
+Tables
+
+Modals
+
+Drawers
+
+Dropdowns
+
+Tabs
+
+Accordions
+
+Pagination
+
+Breadcrumbs
+
+Search
+
+Filters
+
+Forms
+
+Every component must define:
+
+Purpose
+
+States
+
+Variants
+
+Accessibility
+
+Animation
+
+Responsive Behaviour
+
+Usage Rules
+
+Anti-patterns
+
+Acceptance Criteria
+
+---
+
+# CHAPTER 12
+
+PAGE SPECIFICATIONS
+
+Homepage
+
+Category Page
+
+Collection Page
+
+Search
+
+Product Listing
+
+Product Details
+
+Wishlist
+
+Cart
+
+Checkout
+
+Login
+
+Register
+
+Profile
+
+Orders
+
+Returns
+
+CMS
+
+Admin Dashboard
+
+Analytics Dashboard
+
+Every page shall define:
+
+Layout
+
+Hierarchy
+
+Spacing
+
+Interactions
+
+Animations
+
+Responsive Behaviour
+
+Accessibility
+
+Performance Budget
+
+---
+
+# CHAPTER 13
+
+FASHION SPECIFIC UX
+
+Multiple Colour Variants
+
+Size Selector
+
+Model Height
+
+Model Size
+
+Fabric Information
+
+Fit Guide
+
+Size Guide
+
+Recently Viewed
+
+Collection Navigation
+
+Editorial Cards
+
+Flash Sale
+
+Seasonal Collections
+
+Luxury Storytelling
+
+Lookbook
+
+Frequently Bought Together
+
+Future Outfit Builder
+
+---
+
+# CHAPTER 14
+
+ACCESSIBILITY
+
+WCAG 2.2 AA
+
+Keyboard Navigation
+
+ARIA
+
+Screen Readers
+
+Reduced Motion
+
+Touch Targets
+
+Focus States
+
+Color Blind Accessibility
+
+Form Accessibility
+
+---
+
+# CHAPTER 15
+
+DESIGN ANTI-PATTERNS
+
+The AI must NEVER:
+
+Use random spacing.
+
+Use inconsistent typography.
+
+Mix border radius values.
+
+Use different shadow systems.
+
+Break the grid.
+
+Mix animation timings.
+
+Use inconsistent buttons.
+
+Ignore accessibility.
+
+Ignore responsive layouts.
+
+Invent new colors.
+
+Invent new spacing values.
+
+Copy another brand.
+
+---
+
+# GLOBAL DESIGN RULES
+
+Every screen shall feel:
+
+Premium
+
+Elegant
+
+Minimal
+
+Fashion Focused
+
+Fast
+
+Trustworthy
+
+Accessible
+
+Responsive
+
+Visually Consistent
+
+Editorial
+
+Luxury
+
+Modern
+
+The frontend should be capable of competing visually with the best international Fashion & Apparel eCommerce platforms.
+
+Quality must always take precedence over implementation speed.
+
+If any design decision is undefined, implementation must stop until clarification is received.
+
+No assumptions are permitted.
+
+
+
+# 02_UI_UX_DESIGN_SYSTEM_SPECIFICATION
+
+# PART 2
+
+# CHAPTER 1
+
+# BRAND IDENTITY SYSTEM
+
+---
+
+# OBJECTIVE
+
+The purpose of this chapter is to define the complete identity of the Fashion & Apparel eCommerce brand.
+
+This identity governs every visual, interactive, emotional, and experiential decision throughout the platform.
+
+The objective is not simply to create a visually attractive website.
+
+The objective is to build a premium international fashion brand that inspires trust, quality, aspiration, and effortless shopping.
+
+Every design decision shall reinforce the same identity.
+
+If any design element conflicts with the brand identity, it must be rejected.
+
+---
+
+# BRAND POSITIONING
+
+The platform shall position itself as:
+
+Premium
+
+Modern
+
+Elegant
+
+Minimal
+
+Fashion-Forward
+
+Timeless
+
+Trustworthy
+
+Global
+
+Editorial
+
+Luxury Accessible
+
+The experience should feel closer to a premium fashion magazine than a traditional online store.
+
+Customers should experience the website as a curated fashion destination rather than a simple product catalog.
+
+---
+
+# BRAND MISSION
+
+Deliver an effortless premium fashion shopping experience that combines exceptional design, intuitive usability, and customer trust.
+
+Every interaction should make shopping enjoyable, simple, and inspiring.
+
+---
+
+# BRAND VISION
+
+Become a globally recognized digital fashion destination that offers world-class customer experience, modern technology, and premium design while remaining accessible to everyday shoppers.
+
+---
+
+# BRAND VALUES
+
+The platform shall communicate the following values:
+
+Quality
+
+Trust
+
+Transparency
+
+Elegance
+
+Innovation
+
+Simplicity
+
+Reliability
+
+Accessibility
+
+Performance
+
+Customer Satisfaction
+
+These values must be visible not only in written content but also in layout, spacing, typography, motion, imagery, and interaction design.
+
+---
+
+# BRAND PERSONALITY
+
+The website shall communicate the following personality traits:
+
+Confident
+
+Sophisticated
+
+Minimal
+
+Modern
+
+Friendly
+
+Professional
+
+Calm
+
+Inspirational
+
+Fashion-Oriented
+
+Never appear:
+
+Cheap
+
+Overwhelming
+
+Playful
+
+Noisy
+
+Aggressive
+
+Cluttered
+
+Confusing
+
+---
+
+# BRAND ARCHETYPE
+
+Primary Archetype
+
+The Creator
+
+Secondary Archetype
+
+The Sage
+
+Supporting Archetype
+
+The Everyman
+
+This combination creates:
+
+Creativity
+
+Expertise
+
+Approachability
+
+Trust
+
+Timeless Design
+
+---
+
+# EMOTIONAL EXPERIENCE
+
+When users visit the website they should immediately feel:
+
+"I trust this brand."
+
+"This looks premium."
+
+"The products look valuable."
+
+"The website is effortless to use."
+
+"I want to continue exploring."
+
+"This feels like an international fashion retailer."
+
+Every screen must reinforce these emotions.
+
+---
+
+# CUSTOMER PERCEPTION GOALS
+
+The customer should perceive the platform as:
+
+High Quality
+
+Premium
+
+Reliable
+
+Secure
+
+Fast
+
+Professional
+
+Modern
+
+Minimal
+
+Editorial
+
+Luxury Without Being Intimidating
+
+---
+
+# DESIGN PHILOSOPHY
+
+Every interface should prioritize:
+
+Whitespace over decoration
+
+Typography over visual noise
+
+Photography over graphics
+
+Products over interface
+
+Content over effects
+
+Clarity over creativity
+
+Consistency over novelty
+
+Performance over excessive animation
+
+Accessibility over aesthetics
+
+---
+
+# VISUAL DIRECTION
+
+The interface shall combine the strengths of:
+
+Luxury Editorial Design
+
+Minimal Scandinavian Design
+
+Modern Technology Products
+
+High-end Fashion Catalogs
+
+The result should feel:
+
+Clean
+
+Airy
+
+Premium
+
+Focused
+
+Balanced
+
+Elegant
+
+---
+
+# COMPETITIVE BENCHMARK
+
+The following brands shall be used for inspiration only.
+
+Never copy layouts.
+
+Never copy branding.
+
+Never imitate copyrighted assets.
+
+Instead study their strengths.
+
+Apple
+
+Minimalism
+
+Whitespace
+
+Typography
+
+Product focus
+
+Nike
+
+Lifestyle imagery
+
+Product storytelling
+
+Editorial campaigns
+
+Zara
+
+Fashion layout
+
+Collections
+
+Editorial grids
+
+COS
+
+Luxury minimalism
+
+Product presentation
+
+Shopify
+
+Commerce usability
+
+Admin experience
+
+Stripe
+
+Forms
+
+Checkout
+
+Trust
+
+Linear
+
+Motion
+
+Interaction quality
+
+Vercel
+
+Typography
+
+Spacing
+
+Dark mode
+
+Airbnb
+
+Information hierarchy
+
+Trust building
+
+The AI shall extract principles, not designs.
+
+---
+
+# BRAND TONE OF VOICE
+
+Content shall always sound:
+
+Professional
+
+Clear
+
+Confident
+
+Helpful
+
+Elegant
+
+Never sound:
+
+Pushy
+
+Cheap
+
+Clickbait
+
+Salesy
+
+Overly casual
+
+Every piece of UI copy must reinforce trust and clarity.
+
+---
+
+# TRUST PRINCIPLES
+
+Every page shall communicate trust through:
+
+Consistent spacing
+
+Consistent typography
+
+Professional photography
+
+Clear pricing
+
+Visible policies
+
+Transparent shipping
+
+Easy returns
+
+Accessible support
+
+Secure payment indicators
+
+Professional error messages
+
+Predictable interactions
+
+Trust must be established before persuasion.
+
+---
+
+# LUXURY DESIGN PRINCIPLES
+
+Luxury is created through restraint.
+
+The interface shall prioritize:
+
+Whitespace
+
+Large imagery
+
+Refined typography
+
+Minimal color usage
+
+Editorial layouts
+
+High quality product photography
+
+Simple navigation
+
+Focused content
+
+Luxury is never created through excessive decoration.
+
+---
+
+# VISUAL HIERARCHY PRINCIPLES
+
+Every page shall establish hierarchy using:
+
+Typography
+
+Whitespace
+
+Alignment
+
+Scale
+
+Contrast
+
+Color
+
+Photography
+
+Motion
+
+Hierarchy shall never rely solely on bright colors.
+
+---
+
+# BRAND CONSISTENCY RULES
+
+Every screen must appear as though designed by the same team.
+
+Spacing
+
+Typography
+
+Buttons
+
+Cards
+
+Forms
+
+Icons
+
+Animations
+
+Navigation
+
+Layouts
+
+must remain visually consistent across the entire platform.
+
+Consistency shall take precedence over experimentation.
+
+---
+
+# DESIGN DECISION RULE
+
+Whenever multiple design solutions exist, choose the option that is:
+
+Simpler
+
+Cleaner
+
+More Accessible
+
+More Performant
+
+More Maintainable
+
+More Consistent
+
+More Trustworthy
+
+---
+
+# AI DESIGN RESTRICTIONS
+
+The AI coding agent shall never:
+
+Invent brand colors.
+
+Invent typography.
+
+Invent spacing values.
+
+Invent animation styles.
+
+Invent layouts.
+
+Invent new UI patterns.
+
+Mix different design languages.
+
+Mix different icon styles.
+
+Copy competitor designs.
+
+If a design requirement is undefined, stop implementation and request clarification.
+
+No assumptions are permitted.
+
+
+# PART 3
+
+# VISUAL LANGUAGE SYSTEM
+
+---
+
+# OBJECTIVE
+
+The Visual Language System defines the visual DNA of the Fashion & Apparel eCommerce Platform.
+
+It establishes the fundamental principles that govern every visual decision across the entire application, ensuring a consistent, premium, and globally competitive experience.
+
+This chapter does not define individual components. Instead, it defines the visual philosophy that every component, layout, and interaction must follow.
+
+The objective is to create a digital experience that feels timeless, luxurious, editorial, and effortless while maintaining excellent usability and accessibility.
+
+---
+
+# VISUAL DESIGN PHILOSOPHY
+
+The interface shall embody **Luxury Minimalism**.
+
+Luxury is expressed through restraint rather than decoration.
+
+Every element on the screen must justify its existence.
+
+The design shall prioritize:
+
+* Clarity over complexity
+* Simplicity over decoration
+* Quality over quantity
+* Editorial presentation over dense catalogs
+* Product storytelling over excessive interface chrome
+* Whitespace over visual noise
+* Typography over unnecessary graphics
+* High-quality imagery over decorative illustrations
+
+The interface should disappear, allowing products to become the primary visual focus.
+
+---
+
+# VISUAL EXPERIENCE GOALS
+
+When a customer lands on any page, they should immediately perceive:
+
+* Premium craftsmanship
+* Trustworthiness
+* Sophistication
+* Simplicity
+* High-quality products
+* Modern technology
+* Fast performance
+* Ease of navigation
+
+The visual system should reduce cognitive load while increasing confidence in purchasing decisions.
+
+---
+
+# DESIGN PRINCIPLES
+
+## 1. Product First
+
+Products are the hero of every page.
+
+The interface exists to support product discovery, not compete with it.
+
+Photography must receive the highest visual priority.
+
+Large, high-resolution imagery should be used wherever appropriate.
+
+---
+
+## 2. Editorial Layout
+
+The platform shall resemble a premium fashion magazine rather than a traditional online catalog.
+
+Editorial principles include:
+
+* Large hero imagery
+* Generous spacing
+* Asymmetrical compositions where appropriate
+* Strong typography
+* Minimal distractions
+* Carefully curated content blocks
+
+---
+
+## 3. Simplicity
+
+Every screen must have a single primary purpose.
+
+Avoid unnecessary interface elements.
+
+Avoid visual clutter.
+
+Reduce decision fatigue.
+
+---
+
+## 4. Visual Balance
+
+Balance should be achieved through:
+
+* Consistent spacing
+* Typography hierarchy
+* Alignment
+* White space
+* Image proportions
+* Grid discipline
+
+Visual balance must never depend solely on color.
+
+---
+
+# WHITE SPACE PHILOSOPHY
+
+Whitespace is an active design element.
+
+It communicates quality, confidence, and elegance.
+
+Whitespace shall be used to:
+
+* Separate information
+* Guide attention
+* Improve readability
+* Increase product emphasis
+* Reduce cognitive overload
+
+Crowded layouts are prohibited.
+
+The platform should always feel open and breathable.
+
+---
+
+# VISUAL HIERARCHY
+
+Every page shall establish hierarchy using:
+
+1. Photography
+2. Typography
+3. Scale
+4. Spacing
+5. Contrast
+6. Motion
+7. Color
+
+Color should never be the primary mechanism for creating hierarchy.
+
+---
+
+# GRID PHILOSOPHY
+
+All layouts shall be built on a consistent responsive grid.
+
+The grid shall:
+
+* Maintain alignment
+* Preserve rhythm
+* Improve responsiveness
+* Create predictable layouts
+
+Breaking the grid is prohibited unless required for intentional editorial storytelling.
+
+---
+
+# COMPOSITION PRINCIPLES
+
+Each page should maintain:
+
+* One primary focal point
+* Clear secondary information
+* Logical reading flow
+* Predictable alignment
+* Balanced negative space
+
+Every composition should guide the user's eye naturally from top to bottom.
+
+---
+
+# VISUAL RHYTHM
+
+Visual rhythm shall be created through:
+
+* Consistent spacing
+* Repeated typography patterns
+* Uniform card dimensions
+* Predictable image ratios
+* Consistent section spacing
+
+Abrupt visual changes should be avoided.
+
+---
+
+# PRODUCT PHOTOGRAPHY
+
+Photography is the most important visual asset.
+
+Requirements:
+
+* High resolution
+* Consistent lighting
+* Neutral backgrounds for catalog images
+* Editorial lifestyle images for campaigns
+* Multiple viewing angles
+* Zoom capability
+* Color accuracy
+* Responsive image delivery
+
+Images should communicate texture, fit, and quality.
+
+---
+
+# CONTENT HIERARCHY
+
+Every page shall prioritize information in the following order:
+
+1. Product imagery
+2. Product title
+3. Price
+4. Product options (size, color)
+5. Primary action (Add to Cart)
+6. Supporting information
+7. Recommendations
+8. Footer content
+
+The user should never struggle to identify the primary action.
+
+---
+
+# CONSISTENCY
+
+Every screen must feel like it belongs to the same product.
+
+Consistency must be maintained across:
+
+* Layouts
+* Typography
+* Buttons
+* Forms
+* Cards
+* Navigation
+* Icons
+* Animations
+* Spacing
+* Imagery
+
+Users should never encounter conflicting visual patterns.
+
+---
+
+# PREMIUM INTERACTION PRINCIPLES
+
+Interactions should feel:
+
+* Immediate
+* Smooth
+* Predictable
+* Refined
+* Lightweight
+
+Animations should enhance understanding rather than entertain.
+
+The interface should never feel sluggish or overly animated.
+
+---
+
+# TRUST THROUGH DESIGN
+
+Visual trust shall be established through:
+
+* Consistent branding
+* Professional photography
+* Predictable layouts
+* Clear pricing
+* Transparent policies
+* High-quality typography
+* Secure payment indicators
+* Honest messaging
+* Clear calls to action
+
+Trust must be built before persuasion.
+
+---
+
+# RESPONSIVE VISUAL CONSISTENCY
+
+The visual language must remain consistent across:
+
+* Mobile
+* Tablet
+* Laptop
+* Desktop
+* Ultra-wide displays
+
+Layouts may adapt, but the brand identity must remain unchanged.
+
+---
+
+# ANTI-PATTERNS
+
+The following are strictly prohibited:
+
+* Visual clutter
+* Excessive gradients
+* Inconsistent spacing
+* Multiple shadow styles
+* Random border radii
+* Low-quality stock imagery
+* Inconsistent icon styles
+* Decorative animations without purpose
+* Flashy effects that distract from products
+* Overuse of accent colors
+* Dense text blocks without hierarchy
+* Layout shifts during loading
+* Inconsistent page structures
+
+---
+
+# AI DESIGN RULES
+
+The AI coding agent shall never:
+
+* Invent layouts.
+* Mix design languages.
+* Copy competitor interfaces.
+* Change spacing scales.
+* Introduce new visual patterns.
+* Replace approved imagery styles.
+* Modify typography hierarchy.
+* Add decorative elements without documented purpose.
+
+If the required visual behavior is not specified, the AI must stop implementation and request clarification.
+
+Visual consistency takes precedence over creative interpretation.
+
+---
+
+# ACCEPTANCE CRITERIA
+
+The Visual Language System is considered successful when:
+
+* Every page feels visually consistent.
+* Products remain the primary focus.
+* Users can navigate without confusion.
+* The interface feels premium and trustworthy.
+* Editorial aesthetics support product discovery.
+* Responsive layouts preserve visual quality.
+* Accessibility is maintained.
+* Performance is not compromised by visual design.
+* The platform communicates the identity of a global Fashion & Apparel brand.
+
+
+# PART 4
+
+# COLOR SCIENCE SYSTEM
+
+---
+
+# OBJECTIVE
+
+The Color Science System defines the complete color philosophy, semantic color architecture, accessibility standards, emotional psychology, branding strategy, and implementation rules for the Fashion & Apparel eCommerce Platform.
+
+Colors shall communicate trust, elegance, sophistication, and premium quality.
+
+Colors are not decorative.
+
+Colors are functional communication tools.
+
+Every color must have a documented purpose.
+
+Random colors are prohibited.
+
+---
+
+# COLOR PHILOSOPHY
+
+The platform shall adopt a
+
+Luxury Minimal Color Strategy.
+
+The interface should remain visually calm.
+
+Products should always receive more visual attention than interface colors.
+
+Color should support content.
+
+Never compete with products.
+
+The website should appear timeless.
+
+Avoid trendy color combinations that become outdated.
+
+---
+
+# DESIGN GOALS
+
+Colors shall create:
+
+Trust
+
+Luxury
+
+Professionalism
+
+Calm
+
+Readability
+
+Confidence
+
+Visual Balance
+
+Editorial Appearance
+
+Premium Fashion Identity
+
+---
+
+# COLOR PSYCHOLOGY
+
+Each semantic color shall communicate emotion.
+
+Primary
+
+Confidence
+
+Trust
+
+Action
+
+Secondary
+
+Support
+
+Neutral interaction
+
+Accent
+
+Attention
+
+Limited emphasis
+
+Success
+
+Confirmation
+
+Completion
+
+Positive Feedback
+
+Warning
+
+Caution
+
+Pending Attention
+
+Danger
+
+Errors
+
+Critical Actions
+
+Information
+
+Helpful Guidance
+
+Neutral
+
+Structure
+
+Whitespace
+
+Balance
+
+Hierarchy
+
+---
+
+# COLOR STRATEGY
+
+The interface shall remain primarily neutral.
+
+Approximately:
+
+70% Neutral
+
+20% Surface
+
+8% Primary
+
+2% Accent
+
+This ensures products remain the visual focus.
+
+---
+
+# PRIMARY BRAND PALETTE
+
+The AI shall generate:
+
+Primary
+
+Primary Hover
+
+Primary Active
+
+Primary Disabled
+
+Primary Light
+
+Primary Dark
+
+Every variation must include:
+
+HEX
+
+RGB
+
+HSL
+
+Accessibility contrast
+
+Recommended usage
+
+Examples
+
+Forbidden usage
+
+---
+
+# NEUTRAL PALETTE
+
+Generate:
+
+Background
+
+Surface
+
+Surface Elevated
+
+Surface Hover
+
+Card
+
+Section
+
+Border
+
+Divider
+
+Input Background
+
+Overlay
+
+Muted
+
+Soft Neutral
+
+Dark Neutral
+
+Text Neutral
+
+Each neutral color shall include:
+
+Purpose
+
+Usage
+
+Contrast
+
+Accessibility
+
+Examples
+
+---
+
+# TYPOGRAPHY COLORS
+
+Generate colors for:
+
+Primary Heading
+
+Secondary Heading
+
+Body Text
+
+Muted Text
+
+Disabled Text
+
+Placeholder
+
+Links
+
+Visited Links
+
+Error Messages
+
+Success Messages
+
+Warning Messages
+
+Information Messages
+
+Typography colors must satisfy WCAG AA contrast.
+
+---
+
+# INTERACTIVE COLORS
+
+Generate complete states for:
+
+Buttons
+
+Links
+
+Inputs
+
+Checkboxes
+
+Radio Buttons
+
+Switches
+
+Dropdowns
+
+Tabs
+
+Navigation
+
+Cards
+
+Product Cards
+
+Wishlist
+
+Cart
+
+Checkout
+
+Every state must define:
+
+Default
+
+Hover
+
+Pressed
+
+Focused
+
+Disabled
+
+Loading
+
+Success
+
+Error
+
+---
+
+# SEMANTIC COLOR SYSTEM
+
+Define complete semantic tokens.
+
+Examples
+
+Primary
+
+Secondary
+
+Accent
+
+Success
+
+Warning
+
+Danger
+
+Information
+
+Background
+
+Surface
+
+Border
+
+Overlay
+
+Text
+
+Muted
+
+Highlight
+
+Selected
+
+Focused
+
+Each semantic token must have:
+
+Purpose
+
+Usage
+
+Accessibility
+
+Interaction Rules
+
+---
+
+# PRODUCT COLORS
+
+Fashion products require a dedicated color strategy.
+
+Define:
+
+Color Swatches
+
+Variant Display
+
+Unavailable Colors
+
+Selected Colors
+
+Hover Colors
+
+Accessibility Labels
+
+Contrast Requirements
+
+Swatch Shapes
+
+Swatch Sizes
+
+Selection Indicators
+
+---
+
+# SHADOW SYSTEM
+
+Shadows communicate elevation.
+
+Generate:
+
+Level 1
+
+Level 2
+
+Level 3
+
+Level 4
+
+Level 5
+
+Each elevation defines:
+
+Shadow
+
+Blur
+
+Opacity
+
+Usage
+
+Performance impact
+
+Accessibility
+
+---
+
+# BORDER SYSTEM
+
+Generate:
+
+Border Width
+
+Border Radius
+
+Border Colors
+
+Interactive Borders
+
+Focused Borders
+
+Error Borders
+
+Success Borders
+
+Disabled Borders
+
+Consistency Rules
+
+---
+
+# DARK MODE
+
+Dark Mode shall be supported architecturally.
+
+Even if not enabled in Phase 1.
+
+Define:
+
+Dark Background
+
+Dark Surface
+
+Dark Text
+
+Dark Border
+
+Dark Accent
+
+Dark States
+
+Contrast
+
+Accessibility
+
+Token Mapping
+
+---
+
+# ACCESSIBILITY
+
+Every color must satisfy:
+
+WCAG 2.2 AA
+
+Color Blind Safety
+
+Minimum Contrast
+
+Interactive Visibility
+
+Focus Visibility
+
+High Contrast Support
+
+Reduced Transparency
+
+Never communicate meaning using color alone.
+
+---
+
+# BRAND CONSISTENCY
+
+The interface shall use:
+
+One Primary Brand Color
+
+One Accent Color
+
+One Semantic System
+
+One Neutral Palette
+
+Never introduce random colors.
+
+Never mix multiple brand palettes.
+
+---
+
+# COLOR USAGE RULES
+
+Primary colors
+
+Reserved for major actions.
+
+Accent colors
+
+Used sparingly.
+
+Neutral colors
+
+Dominate the interface.
+
+Error colors
+
+Used only for validation and failures.
+
+Success colors
+
+Used only after successful completion.
+
+Warning colors
+
+Used only when user attention is required.
+
+---
+
+# ANTI-PATTERNS
+
+The AI must never:
+
+Use random colors.
+
+Invent new shades.
+
+Mix multiple palettes.
+
+Use low contrast text.
+
+Use saturated colors excessively.
+
+Color entire layouts unnecessarily.
+
+Use gradients without documented purpose.
+
+Rely on color alone for communication.
+
+Ignore accessibility.
+
+---
+
+# AI COLOR RESTRICTIONS
+
+The AI coding agent shall never:
+
+Replace the approved palette.
+
+Modify semantic tokens.
+
+Invent additional colors.
+
+Generate gradients without specification.
+
+Create inconsistent hover states.
+
+Change color psychology.
+
+If a required color token does not exist,
+
+STOP.
+
+Request clarification.
+
+---
+
+# ACCEPTANCE CRITERIA
+
+The Color Science System is complete when:
+
+Every interface color has a documented purpose.
+
+Accessibility requirements are satisfied.
+
+Products remain visually dominant.
+
+The interface communicates luxury.
+
+The brand appears consistent.
+
+Interactive elements remain clear.
+
+Semantic colors are predictable.
+
+Dark mode compatibility exists.
+
+Future expansion can occur without redesigning the palette.
+
+# PART 5
+
+# TYPOGRAPHY SYSTEM
+
+## OBJECTIVE
+
+Typography is the primary communication system of the platform.
+
+It shall establish hierarchy, improve readability, strengthen brand identity, and create a premium editorial shopping experience.
+
+Typography must never feel decorative.
+
+It must feel timeless.
+
+---
+
+## Typography Philosophy
+
+The typography system shall communicate:
+
+• Premium Quality
+
+• Confidence
+
+• Modern Luxury
+
+• Simplicity
+
+• Editorial Fashion
+
+• High Readability
+
+Typography should resemble international luxury fashion magazines rather than traditional online stores.
+
+---
+
+## Font Selection Principles
+
+The font family must satisfy:
+
+Excellent web readability
+
+Elegant appearance
+
+High multilingual support
+
+Outstanding mobile rendering
+
+Fast loading
+
+Professional appearance
+
+Excellent variable font support
+
+Recommended Primary Fonts
+
+Inter
+
+Geist
+
+Manrope
+
+IBM Plex Sans
+
+General Sans
+
+Recommended Editorial Fonts (Optional)
+
+Instrument Serif
+
+Cormorant Garamond
+
+Canela (licensed alternative)
+
+Editorial New
+
+Only one primary font family shall be used throughout the platform.
+
+---
+
+## Typography Hierarchy
+
+Define consistent hierarchy for:
+
+Display
+
+H1
+
+H2
+
+H3
+
+H4
+
+H5
+
+H6
+
+Body Large
+
+Body
+
+Small Text
+
+Caption
+
+Label
+
+Button
+
+Navigation
+
+Footer
+
+Product Price
+
+Product Name
+
+Discount
+
+Review Count
+
+Badge
+
+Error Message
+
+Success Message
+
+Every typography level shall define:
+
+Font Weight
+
+Line Height
+
+Letter Spacing
+
+Maximum Line Length
+
+Responsive Scaling
+
+---
+
+## Reading Experience
+
+Maximum paragraph width:
+
+60–75 characters.
+
+Avoid dense text.
+
+Increase whitespace around large headings.
+
+Use typography to create rhythm rather than relying on color.
+
+---
+
+## Accessibility
+
+Typography must satisfy:
+
+Minimum body size
+
+Scalable text
+
+High contrast
+
+Readable spacing
+
+No fixed-height containers that clip text
+
+Support browser zoom up to 200%
+
+---
+
+# PART 6
+
+# LAYOUT MATHEMATICS
+
+---
+
+## Layout Philosophy
+
+Every layout shall be mathematically consistent.
+
+Visual quality comes from spacing discipline rather than decoration.
+
+---
+
+## Grid System
+
+Desktop
+
+12-column responsive grid.
+
+Tablet
+
+8-column grid.
+
+Mobile
+
+4-column grid.
+
+No layout shall ignore the grid.
+
+---
+
+## Spacing System
+
+Adopt an 8-point spacing system.
+
+Examples:
+
+4
+
+8
+
+12
+
+16
+
+24
+
+32
+
+40
+
+48
+
+64
+
+80
+
+96
+
+120
+
+Never invent arbitrary spacing values.
+
+---
+
+## Container Widths
+
+Maximum Content Width
+
+Responsive Containers
+
+Section Width
+
+Product Grid Width
+
+Editorial Width
+
+Reading Width
+
+Dashboard Width
+
+Each must be documented separately.
+
+---
+
+## Alignment Rules
+
+Every element aligns to the grid.
+
+No random positioning.
+
+No inconsistent margins.
+
+No visual imbalance.
+
+---
+
+## Product Grid
+
+Fashion products require:
+
+Consistent image ratios
+
+Consistent card heights
+
+Predictable spacing
+
+Uniform alignment
+
+Large imagery
+
+Minimal distractions
+
+---
+
+## White Space Rules
+
+Whitespace is a premium design element.
+
+Never attempt to fill empty areas unnecessarily.
+
+The interface should breathe.
+
+---
+
+# PART 7
+
+# MOTION LANGUAGE
+
+---
+
+## Motion Philosophy
+
+Motion should:
+
+Guide
+
+Inform
+
+Confirm
+
+Delight
+
+Never distract.
+
+---
+
+## Motion Principles
+
+Animations shall be:
+
+Fast
+
+Subtle
+
+Purposeful
+
+Consistent
+
+Natural
+
+Predictable
+
+---
+
+## Timing
+
+Fast
+
+100–150ms
+
+Standard
+
+200–300ms
+
+Complex
+
+300–500ms
+
+Never exceed 600ms unless storytelling requires it.
+
+---
+
+## Interaction Motion
+
+Buttons
+
+Hover
+
+Focus
+
+Pressed
+
+Disabled
+
+Cards
+
+Hover Elevation
+
+Image Zoom
+
+Shadow Transition
+
+Navigation
+
+Slide
+
+Fade
+
+Scale
+
+Product Gallery
+
+Smooth transitions
+
+Gesture support
+
+Loading
+
+Skeletons
+
+Shimmer
+
+Progress
+
+Checkout
+
+Step transitions
+
+Success confirmation
+
+Order completion
+
+---
+
+## Micro Interactions
+
+Wishlist
+
+Cart
+
+Quantity
+
+Search
+
+Filters
+
+Notifications
+
+Dropdowns
+
+Tabs
+
+Accordion
+
+Hover states
+
+Focus states
+
+Every interaction must provide visual feedback.
+
+---
+
+## Performance Rules
+
+Never animate:
+
+Width
+
+Height
+
+Top
+
+Left
+
+Prefer:
+
+Opacity
+
+Transform
+
+GPU accelerated animations.
+
+---
+
+# PART 8
+
+# FASHION USER EXPERIENCE
+
+---
+
+## Philosophy
+
+Fashion shopping is emotional.
+
+The interface shall encourage exploration while reducing purchase anxiety.
+
+---
+
+## Product Discovery
+
+Support:
+
+New Arrivals
+
+Trending
+
+Collections
+
+Seasonal Campaigns
+
+Best Sellers
+
+Editor's Picks
+
+Limited Editions
+
+Recently Viewed
+
+Continue Shopping
+
+---
+
+## Collection Experience
+
+Collections shall tell stories.
+
+Examples:
+
+Summer Collection
+
+Winter Collection
+
+Office Wear
+
+Casual
+
+Streetwear
+
+Luxury Essentials
+
+Formal Wear
+
+Collections should feel editorial rather than purely transactional.
+
+---
+
+## Product Experience
+
+Every product page must include:
+
+Large imagery
+
+Image zoom
+
+Multiple angles
+
+Variant selection
+
+Color swatches
+
+Size selector
+
+Fit information
+
+Fabric composition
+
+Care instructions
+
+Delivery estimate
+
+Return policy
+
+Trust badges
+
+Customer reviews
+
+Related products
+
+Recently viewed
+
+---
+
+## Size Experience
+
+The platform shall reduce return rates through:
+
+Comprehensive size guides
+
+Fit descriptions
+
+Model height and size
+
+Measurement charts
+
+International size conversion
+
+Clear stock availability
+
+---
+
+## Color Selection
+
+Color swatches shall:
+
+Display actual colors
+
+Remain accessible
+
+Show unavailable colors
+
+Support keyboard navigation
+
+Clearly indicate the selected option
+
+---
+
+## Cart Experience
+
+The cart must communicate:
+
+Progress
+
+Savings
+
+Shipping estimates
+
+Return information
+
+Trust
+
+Customers should never feel uncertain about the next step.
+
+---
+
+## Checkout Psychology
+
+Checkout must minimize cognitive load.
+
+Display:
+
+Order summary
+
+Shipping costs
+
+Taxes
+
+Estimated delivery
+
+Secure payment indicators
+
+Progress steps
+
+Avoid distractions.
+
+Never force account creation.
+
+Support guest checkout.
+
+---
+
+## Wishlist
+
+Wishlist should encourage future purchases.
+
+Support:
+
+Save for later
+
+Move to cart
+
+Price drop notifications (future)
+
+Back in stock notifications (future)
+
+---
+
+## Trust Building
+
+Trust shall be reinforced through:
+
+Professional photography
+
+Transparent pricing
+
+Easy returns
+
+Delivery estimates
+
+Secure payments
+
+Verified reviews
+
+Brand consistency
+
+Performance
+
+---
+
+## Fashion Storytelling
+
+The homepage shall combine:
+
+Editorial banners
+
+Lifestyle photography
+
+Featured collections
+
+Seasonal campaigns
+
+Product highlights
+
+Brand narrative
+
+The objective is to inspire shopping, not simply list products.
+
+---
+
+## Anti-Patterns
+
+Never:
+
+Hide shipping costs
+
+Hide return policies
+
+Use low-quality product images
+
+Display inconsistent product cards
+
+Create confusing size selection
+
+Use aggressive popups
+
+Interrupt checkout
+
+Overload pages with promotions
+
+Sacrifice readability for aesthetics
+
+---
+
+## Acceptance Criteria
+
+The Fashion UX is considered successful when:
+
+Customers discover products effortlessly.
+
+Product imagery is the primary focus.
+
+Size selection is intuitive.
+
+Checkout friction is minimized.
+
+Trust is communicated at every step.
+
+The experience feels comparable to leading international fashion retailers rather than a generic eCommerce template.
+
+# PART 9
+
+# COMPONENT DESIGN SYSTEM
+
+---
+
+# OBJECTIVE
+
+The Component Design System defines every reusable UI component used throughout the Fashion & Apparel eCommerce Platform.
+
+Every component shall follow the same design language, spacing system, accessibility requirements, interaction patterns, and responsive behavior.
+
+Components must never be redesigned independently.
+
+The design system is the single source of truth.
+
+---
+
+# GLOBAL COMPONENT PRINCIPLES
+
+Every component shall be:
+
+Reusable
+
+Composable
+
+Responsive
+
+Accessible
+
+Consistent
+
+Minimal
+
+Performant
+
+Testable
+
+Documented
+
+Theme-ready
+
+Every component must support:
+
+Default State
+
+Hover State
+
+Focus State
+
+Active State
+
+Disabled State
+
+Loading State
+
+Success State (where applicable)
+
+Error State (where applicable)
+
+Dark Mode Ready
+
+---
+
+# BUTTON SYSTEM
+
+Types
+
+Primary
+
+Secondary
+
+Outline
+
+Ghost
+
+Text
+
+Destructive
+
+Icon Button
+
+Floating Action Button (Admin only)
+
+Rules
+
+Primary button appears only once per major section.
+
+Button hierarchy must remain visually consistent.
+
+Minimum touch target:
+
+44×44 px
+
+Buttons must never shift layout during loading.
+
+Loading replaces label with spinner.
+
+---
+
+# INPUT SYSTEM
+
+Supported Inputs
+
+Text
+
+Email
+
+Password
+
+Phone
+
+Number
+
+Search
+
+Textarea
+
+Date
+
+File Upload
+
+Color
+
+Size Selection
+
+Address
+
+Coupon Code
+
+Validation
+
+Real-time validation
+
+Clear error messages
+
+Accessible labels
+
+Keyboard navigation
+
+Never rely on placeholders as labels.
+
+---
+
+# PRODUCT CARD
+
+Every Product Card must include:
+
+Product Image
+
+Brand
+
+Product Name
+
+Price
+
+Discount Price
+
+Rating
+
+Wishlist Button
+
+Quick View
+
+Stock Status
+
+Hover Animation
+
+Responsive Layout
+
+Optional:
+
+Color Swatches
+
+Size Preview
+
+Badges
+
+New
+
+Sale
+
+Limited
+
+Trending
+
+---
+
+# IMAGE GALLERY
+
+Features
+
+Zoom
+
+Thumbnail Navigation
+
+Touch Gestures
+
+Keyboard Navigation
+
+Full Screen
+
+Responsive
+
+Lazy Loading
+
+Progressive Loading
+
+Accessibility
+
+---
+
+# COLOR SWATCH
+
+Supports:
+
+Unlimited colors
+
+Selected state
+
+Hover state
+
+Unavailable state
+
+Tooltip
+
+Keyboard selection
+
+Color accessibility labels
+
+---
+
+# SIZE SELECTOR
+
+Supports:
+
+XS
+
+S
+
+M
+
+L
+
+XL
+
+XXL
+
+Custom Sizes
+
+Features
+
+Stock indicators
+
+Unavailable sizes
+
+Selected state
+
+Hover state
+
+Size Guide link
+
+Accessibility
+
+---
+
+# SEARCH COMPONENT
+
+Supports
+
+Instant Suggestions
+
+History
+
+Popular Searches
+
+Trending Searches
+
+Recent Searches
+
+Filters
+
+Keyboard Navigation
+
+Debouncing
+
+Loading State
+
+Empty State
+
+---
+
+# FILTER SYSTEM
+
+Supports:
+
+Category
+
+Brand
+
+Price
+
+Color
+
+Size
+
+Material
+
+Collection
+
+Availability
+
+Rating
+
+Sorting
+
+Every filter must preserve state during navigation.
+
+---
+
+# NAVIGATION
+
+Desktop Navigation
+
+Mega Menu
+
+Categories
+
+Collections
+
+Search
+
+Wishlist
+
+Cart
+
+Account
+
+Mobile Navigation
+
+Bottom Navigation
+
+Drawer
+
+Search
+
+Hamburger
+
+Quick Actions
+
+Sticky Navigation
+
+---
+
+# SHOPPING CART
+
+Components
+
+Product List
+
+Quantity Selector
+
+Coupon
+
+Summary
+
+Shipping Estimate
+
+Recommended Products
+
+Checkout Button
+
+Empty State
+
+Loading State
+
+---
+
+# CHECKOUT COMPONENTS
+
+Address Form
+
+Shipping Method
+
+Payment Method
+
+Order Summary
+
+Promo Code
+
+Confirmation
+
+Progress Indicator
+
+Trust Badges
+
+---
+
+# NOTIFICATIONS
+
+Support
+
+Success
+
+Warning
+
+Information
+
+Error
+
+Undo Actions
+
+Auto Dismiss
+
+Accessibility
+
+---
+
+# MODALS
+
+Rules
+
+Centered
+
+Accessible
+
+Keyboard Support
+
+ESC Close
+
+Background Lock
+
+Responsive
+
+Never stack multiple modals.
+
+---
+
+# TABLES (Admin)
+
+Support
+
+Sorting
+
+Filtering
+
+Pagination
+
+Bulk Actions
+
+Responsive Layout
+
+Column Visibility
+
+Export
+
+---
+
+# CHARTS
+
+Dashboard only.
+
+Support
+
+Revenue
+
+Orders
+
+Inventory
+
+Customers
+
+Analytics
+
+Charts must prioritize readability.
+
+---
+
+# EMPTY STATES
+
+Every module must define:
+
+Illustration
+
+Message
+
+Explanation
+
+Primary Action
+
+Secondary Action
+
+---
+
+# LOADING STATES
+
+Never show blank screens.
+
+Always display:
+
+Skeletons
+
+Progress Indicators
+
+Placeholder Layouts
+
+Optimistic UI where appropriate
+
+---
+
+# ERROR STATES
+
+Friendly
+
+Actionable
+
+Clear
+
+Recoverable
+
+Never expose technical details.
+
+---
+
+# AI RULES
+
+The AI coding agent shall never:
+
+Invent new components.
+
+Change existing component behavior.
+
+Introduce inconsistent spacing.
+
+Change interaction patterns.
+
+Duplicate components.
+
+Mix design systems.
+
+If a required component does not exist,
+
+STOP.
+
+Request approval.
+
+---
+
+# ACCEPTANCE CRITERIA
+
+Every component must satisfy:
+
+Consistency
+
+Accessibility
+
+Performance
+
+Responsiveness
+
+Brand Identity
+
+Maintainability
+
+Reusability
+
+Predictable Behaviour
+
+Professional Appearance
+
+Documentation
+
+Testing
+
+---
+
+# PART 10
+
+# SCREEN SPECIFICATIONS
+
+---
+
+# OBJECTIVE
+
+Every screen in the platform shall have a documented purpose, layout hierarchy, interaction model, accessibility requirements, and performance expectations.
+
+No screen shall be designed without specification.
+
+---
+
+# CUSTOMER WEBSITE
+
+The following screens are mandatory:
+
+Landing Page
+
+Homepage
+
+Category Listing
+
+Collection Page
+
+Brand Page
+
+Product Listing
+
+Product Detail
+
+Search Results
+
+Wishlist
+
+Shopping Cart
+
+Checkout
+
+Order Confirmation
+
+Order Tracking
+
+Login
+
+Registration
+
+Forgot Password
+
+Reset Password
+
+User Dashboard
+
+Order History
+
+Returns
+
+Profile
+
+Address Book
+
+Payment Methods
+
+Notifications
+
+Support
+
+Contact
+
+FAQ
+
+About
+
+Privacy Policy
+
+Terms
+
+404
+
+500
+
+Maintenance
+
+---
+
+# ADMIN PANEL
+
+Dashboard
+
+Analytics
+
+Orders
+
+Products
+
+Categories
+
+Collections
+
+Brands
+
+Inventory
+
+Customers
+
+Users
+
+Roles
+
+Coupons
+
+Promotions
+
+Shipping
+
+Returns
+
+Refunds
+
+CMS
+
+Media Library
+
+Blog
+
+Reviews
+
+Reports
+
+Settings
+
+Audit Logs
+
+Notifications
+
+API Keys
+
+System Health
+
+Backups
+
+---
+
+# EVERY SCREEN SHALL DEFINE
+
+Purpose
+
+Target User
+
+Primary Goal
+
+Secondary Goal
+
+Layout Structure
+
+Navigation
+
+Component Usage
+
+Responsive Behaviour
+
+Accessibility
+
+Loading State
+
+Empty State
+
+Error State
+
+SEO Requirements
+
+Performance Budget
+
+Analytics Events
+
+Security Requirements
+
+Future Expansion
+
+Acceptance Criteria
+
+---
+
+# PAGE QUALITY RULES
+
+Every screen must:
+
+Load quickly
+
+Be fully responsive
+
+Support keyboard navigation
+
+Maintain visual consistency
+
+Support touch interaction
+
+Display meaningful empty states
+
+Display meaningful loading states
+
+Prevent layout shifts
+
+Meet accessibility requirements
+
+Never confuse users
+
+---
+
+# USER EXPERIENCE PRINCIPLES
+
+Every page should answer:
+
+Where am I?
+
+What can I do?
+
+What should I do next?
+
+How do I go back?
+
+How do I complete my task?
+
+Navigation should always feel effortless.
+
+---
+
+# CONVERSION PRINCIPLES
+
+Every customer-facing page shall prioritize:
+
+Trust
+
+Clarity
+
+Product Discovery
+
+Purchase Confidence
+
+Minimal Friction
+
+Fast Checkout
+
+Repeat Purchases
+
+Long-Term Customer Loyalty
+
+---
+
+# GLOBAL ACCEPTANCE CRITERIA
+
+The complete UI/UX Design System is successful when:
+
+Every screen appears to belong to the same premium brand.
+
+The experience rivals leading international Fashion & Apparel retailers.
+
+Products remain the visual focus.
+
+Navigation is intuitive.
+
+Interactions are predictable.
+
+Accessibility is maintained.
+
+Performance remains excellent.
+
+The frontend communicates quality before a single product is purchased.
+
+
+# PART 11
+
+# ACCESSIBILITY SYSTEM (WCAG 2.2 AA)
+
+---
+
+# OBJECTIVE
+
+Accessibility is a core product requirement, not an enhancement. Every user, regardless of ability or device, must be able to navigate, understand, and complete tasks throughout the platform.
+
+Compliance target: **WCAG 2.2 AA**.
+
+---
+
+## Accessibility Principles
+
+* Perceivable
+* Operable
+* Understandable
+* Robust
+
+---
+
+## Keyboard Navigation
+
+Every interactive element shall:
+
+* Be reachable with the keyboard.
+* Follow a logical tab order.
+* Display a visible focus indicator.
+* Support Enter and Space activation where appropriate.
+* Allow ESC to close dialogs and menus.
+
+Keyboard traps are prohibited.
+
+---
+
+## Screen Reader Support
+
+Every page shall include:
+
+* Semantic HTML
+* Proper heading hierarchy (H1–H6)
+* ARIA labels where required
+* Descriptive button labels
+* Alt text for all informative images
+* Announcements for dynamic updates (cart changes, errors, notifications)
+
+---
+
+## Forms
+
+Every form must include:
+
+* Visible labels
+* Required field indicators
+* Helpful validation messages
+* Error summaries
+* Programmatically associated labels
+
+Placeholders shall never replace labels.
+
+---
+
+## Color & Contrast
+
+* Minimum contrast ratio must satisfy WCAG 2.2 AA.
+* Information shall never rely on color alone.
+* Focus indicators must remain visible.
+* Error messages must include both color and text.
+
+---
+
+## Motion Accessibility
+
+Provide support for reduced-motion preferences.
+
+Users who disable animations shall still receive clear interaction feedback.
+
+---
+
+## Touch Accessibility
+
+Minimum touch target:
+
+44 × 44 px
+
+Adequate spacing between interactive controls is mandatory.
+
+---
+
+## Accessibility Testing
+
+Every release shall include:
+
+* Keyboard-only testing
+* Screen reader testing
+* Color contrast validation
+* Focus order validation
+* Browser zoom testing (up to 200%)
+* Responsive accessibility review
+
+---
+
+# PART 12
+
+# MOBILE-FIRST EXPERIENCE
+
+---
+
+# OBJECTIVE
+
+The platform shall be designed mobile-first, then progressively enhanced for larger screens.
+
+Mobile is the primary shopping experience.
+
+Desktop is an enhancement, not the default assumption.
+
+---
+
+## Responsive Breakpoints
+
+Define standard breakpoints for:
+
+* Mobile
+* Small Tablet
+* Large Tablet
+* Laptop
+* Desktop
+* Ultra-wide
+
+All layouts shall adapt without changing the core brand identity.
+
+---
+
+## Mobile Navigation
+
+Use:
+
+* Sticky header
+* Slide-out navigation
+* Persistent search
+* Easily accessible cart
+* Thumb-friendly controls
+
+Navigation depth should be minimized.
+
+---
+
+## Mobile Product Experience
+
+Product pages must prioritize:
+
+* Large images
+* Swipe galleries
+* Color swatches
+* Size selector
+* Sticky "Add to Cart"
+* Delivery information
+* Reviews
+* Trust indicators
+
+Critical purchase actions must remain easily reachable.
+
+---
+
+## Mobile Checkout
+
+Optimize for:
+
+* One-handed use
+* Minimal typing
+* Autofill support
+* Guest checkout
+* Progress indicators
+* Fast validation
+
+---
+
+## Responsive Rules
+
+No horizontal scrolling.
+
+Readable typography.
+
+Optimized images.
+
+Touch-first interactions.
+
+Consistent spacing.
+
+---
+
+# PART 13
+
+# PERFORMANCE & CORE WEB VITALS
+
+---
+
+# OBJECTIVE
+
+Performance is a feature.
+
+The platform shall feel instantaneous regardless of device.
+
+---
+
+## Performance Targets
+
+Homepage:
+
+< 2 seconds
+
+Category Page:
+
+< 2 seconds
+
+Product Page:
+
+< 2 seconds
+
+Checkout:
+
+Fast, uninterrupted flow
+
+---
+
+## Core Web Vitals
+
+Largest Contentful Paint (LCP)
+
+Target: Excellent
+
+Interaction to Next Paint (INP)
+
+Target: Excellent
+
+Cumulative Layout Shift (CLS)
+
+Target: Minimal
+
+Performance budgets shall be monitored continuously.
+
+---
+
+## Image Optimization
+
+Use responsive image delivery.
+
+Lazy-load below-the-fold images.
+
+Optimize formats.
+
+Compress intelligently without noticeable quality loss.
+
+Avoid layout shifts while images load.
+
+---
+
+## Font Strategy
+
+* Load only required font weights.
+* Preload critical fonts.
+* Avoid render-blocking font requests.
+* Use font-display strategies to minimize layout shifts.
+
+---
+
+## JavaScript Strategy
+
+* Code splitting
+* Dynamic imports
+* Tree shaking
+* Minimize client-side JavaScript
+* Prefer Server Components where applicable
+
+---
+
+## Caching
+
+Use browser caching.
+
+CDN caching.
+
+Static asset optimization.
+
+Cache invalidation must be predictable.
+
+---
+
+# PART 14
+
+# SEO UI SPECIFICATION
+
+---
+
+# OBJECTIVE
+
+Every page shall be optimized for discoverability while preserving excellent user experience.
+
+SEO shall be integrated into the design, not added later.
+
+---
+
+## Semantic Structure
+
+Use:
+
+* Semantic HTML
+* Proper heading hierarchy
+* Accessible navigation
+* Breadcrumbs
+* Structured content sections
+
+---
+
+## Metadata
+
+Every page shall support:
+
+* Unique title
+* Meta description
+* Open Graph
+* Twitter Cards
+* Canonical URL
+
+---
+
+## Product Pages
+
+Support:
+
+* Structured data
+* Product metadata
+* Ratings
+* Pricing
+* Availability
+* Breadcrumbs
+
+---
+
+## Navigation
+
+Navigation must support:
+
+* Crawlability
+* Internal linking
+* Clear information architecture
+* Logical URL hierarchy
+
+---
+
+## Image SEO
+
+Every product image shall include:
+
+* Descriptive filename
+* Alt text
+* Responsive sizing
+* Optimized delivery
+
+---
+
+## Performance & SEO
+
+Maintain excellent Core Web Vitals.
+
+Avoid intrusive popups.
+
+Prevent layout shifts.
+
+Optimize for mobile-first indexing.
+
+---
+
+# PART 15
+
+# AI DESIGN RESTRICTIONS & DESIGN GOVERNANCE
+
+---
+
+# OBJECTIVE
+
+AI coding agents shall function as implementation assistants, not design decision-makers.
+
+The approved Design System is the single source of truth.
+
+---
+
+## AI Restrictions
+
+The AI shall never:
+
+* Invent layouts.
+* Invent components.
+* Invent colors.
+* Invent typography.
+* Invent spacing values.
+* Invent animations.
+* Mix multiple design systems.
+* Replace approved visual patterns.
+* Ignore accessibility.
+* Ignore performance requirements.
+* Modify brand identity.
+* Add decorative effects without documented purpose.
+
+If a design rule is missing, the AI must stop and request clarification.
+
+---
+
+## Phase 1 AI Restrictions
+
+The following UI features are prohibited during Phase 1:
+
+* AI Chatbot
+* AI Shopping Assistant
+* AI Recommendations
+* Semantic Search
+* Visual Search
+* Voice Shopping
+* AI Product Descriptions
+* AI Outfit Builder
+* AI Size Recommendation
+* AI Personalization
+* AI Analytics Widgets
+
+These belong exclusively to Phase 2.
+
+---
+
+## Approval Workflow
+
+Before implementing any AI-powered interface, the AI coding agent must display:
+
+"The core Fashion & Apparel eCommerce Platform has been completed successfully.
+
+AI integration is optional.
+
+Would you like to begin Phase 2?
+
+Available modules include:
+
+* AI Shopping Assistant
+* AI Product Recommendations
+* Semantic Search
+* Visual Search
+* AI Size Recommendation
+* AI Outfit Builder
+* AI Content Generation
+* AI Analytics Assistant
+
+No AI functionality will be implemented until explicit approval is received."
+
+If approval is not granted, development shall continue without AI functionality.
+
+---
+
+# DESIGN GOVERNANCE
+
+The Design System is mandatory.
+
+No feature may bypass it.
+
+Every UI change must be evaluated against:
+
+* Brand Identity
+* Visual Language
+* Color System
+* Typography
+* Layout Mathematics
+* Motion Language
+* Accessibility
+* Performance
+* SEO
+* Component Standards
+
+If a proposed change violates any approved rule, it must be rejected or reviewed by the project owner.
+
+---
+
+# FINAL ACCEPTANCE CRITERIA
+
+The UI/UX Design System is considered complete when:
+
+✓ Every page follows the same visual language.
+
+✓ Every component is documented.
+
+✓ Accessibility requirements are met.
+
+✓ Performance targets are achieved.
+
+✓ Mobile-first behavior is validated.
+
+✓ SEO requirements are integrated.
+
+✓ The interface communicates a premium global Fashion & Apparel brand.
+
+✓ AI coding agents can implement the frontend without making undocumented design decisions.
+
+This document is the definitive design authority for the entire platform and shall be referenced before any frontend implementation begins.
+

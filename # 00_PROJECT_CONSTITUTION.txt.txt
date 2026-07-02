@@ -1,0 +1,1554 @@
+# 00_PROJECT_CONSTITUTION.txt
+
+Version: 1.0
+
+Status: Active
+
+Classification: Engineering Constitution
+
+Audience:
+
+* Product Owners
+* Software Architects
+* Frontend Engineers
+* Backend Engineers
+* Database Engineers
+* DevOps Engineers
+* QA Engineers
+* Security Engineers
+* AI Coding Agents
+
+---
+
+# ENGINEERING CONSTITUTION
+
+This document is the highest authority governing the development of the Fashion & Apparel eCommerce Platform.
+
+Every engineer, AI coding agent, automation system, and future contributor must comply with the standards defined in this document.
+
+If any instruction in another document conflicts with this constitution, this constitution takes precedence unless explicitly overridden by the project owner.
+
+This document exists to ensure consistency, maintainability, scalability, security, and long-term sustainability.
+
+---
+
+# PROJECT IDENTITY
+
+Project Type
+
+Enterprise Fashion & Apparel eCommerce Platform
+
+Industry
+
+Fashion Retail
+
+Business Model
+
+B2C
+
+Architecture Style
+
+Modular Monolith
+
+Microservice Ready
+
+Cloud Native
+
+API First
+
+Mobile First
+
+AI Ready
+
+AI Disabled by Default
+
+Deployment Target
+
+Production
+
+Global Market
+
+---
+
+# PROJECT MISSION
+
+Build a world-class fashion eCommerce platform capable of competing with premium international brands.
+
+The platform shall prioritize:
+
+Customer Experience
+
+Performance
+
+Maintainability
+
+Security
+
+Accessibility
+
+Scalability
+
+Reliability
+
+Long-term Extensibility
+
+Every engineering decision shall support these objectives.
+
+---
+
+# CORE ENGINEERING PRINCIPLES
+
+The following principles are mandatory.
+
+1.
+
+Customer First
+
+Every feature must solve a customer problem.
+
+Never add unnecessary complexity.
+
+---
+
+2.
+
+Consistency Over Creativity
+
+Consistency creates trust.
+
+Every page shall behave consistently.
+
+Every component shall behave consistently.
+
+Every API shall behave consistently.
+
+---
+
+3.
+
+Performance Is A Feature
+
+Fast websites convert better.
+
+Performance shall never be treated as an optimization added later.
+
+Performance requirements exist from the first line of code.
+
+---
+
+4.
+
+Security Is Mandatory
+
+Security shall never be sacrificed for convenience.
+
+Every feature shall be designed securely.
+
+---
+
+5.
+
+Accessibility Is Mandatory
+
+Accessibility is not optional.
+
+Every feature shall be usable by all users.
+
+---
+
+6.
+
+Scalability Before Growth
+
+The platform shall support future growth without major architectural redesign.
+
+---
+
+7.
+
+Maintainability Before Speed
+
+Readable code is preferred over clever code.
+
+Simple code is preferred over complex abstractions.
+
+---
+
+8.
+
+Explicit Over Implicit
+
+Avoid hidden behavior.
+
+Avoid magic.
+
+Every important decision shall be explicit.
+
+---
+
+9.
+
+Documentation Driven Development
+
+Documentation precedes implementation.
+
+Implementation follows documentation.
+
+Never write undocumented features.
+
+---
+
+10.
+
+Single Source Of Truth
+
+Every engineering decision must have one authoritative location.
+
+No duplicated rules.
+
+No conflicting documentation.
+
+---
+
+# PROJECT TECHNOLOGY LOCK
+
+The following technologies are permanently locked.
+
+Frontend
+
+Next.js (App Router)
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+shadcn/ui
+
+Framer Motion
+
+Backend
+
+FastAPI
+
+Python
+
+SQLAlchemy
+
+Alembic
+
+Database
+
+PostgreSQL
+
+Caching
+
+Redis
+
+Storage
+
+Cloudflare R2
+
+Authentication
+
+Better Auth (or project-approved authentication solution)
+
+Deployment
+
+Docker
+
+Nginx
+
+Coolify
+
+Monitoring
+
+Prometheus
+
+Grafana
+
+Logging
+
+Structured JSON Logs
+
+Testing
+
+Pytest
+
+Vitest
+
+Playwright
+
+This technology stack shall not be changed without explicit approval from the project owner.
+
+---
+
+# TECHNOLOGY RESTRICTIONS
+
+The AI coding agent shall not replace any locked technology.
+
+Forbidden substitutions include:
+
+Laravel
+
+Django
+
+Express
+
+NestJS
+
+Spring Boot
+
+Ruby on Rails
+
+Vue
+
+Angular
+
+MongoDB
+
+Firebase
+
+Supabase (as a replacement for PostgreSQL)
+
+Bootstrap
+
+Material UI
+
+If a technology change appears beneficial, the AI must stop and ask for user approval.
+
+---
+
+# DEVELOPMENT PHILOSOPHY
+
+Every feature must progress through the following lifecycle:
+
+Business Requirement
+
+↓
+
+Product Approval
+
+↓
+
+Architecture Design
+
+↓
+
+Database Design
+
+↓
+
+API Contract
+
+↓
+
+Frontend Design
+
+↓
+
+Implementation
+
+↓
+
+Testing
+
+↓
+
+Review
+
+↓
+
+Deployment
+
+Skipping stages is prohibited.
+
+---
+
+# AI CODING AGENT RULES
+
+The AI coding agent is an implementation assistant, not a decision maker.
+
+The AI must:
+
+* Follow the PRD.
+* Follow this Constitution.
+* Follow the Design System.
+* Follow the Architecture Specification.
+* Never invent undocumented features.
+* Never remove existing functionality without approval.
+* Never change the technology stack.
+* Never rename modules without approval.
+* Never introduce breaking changes silently.
+* Ask for clarification when requirements are ambiguous.
+
+The AI must not assume business logic.
+
+When uncertainty exists, stop and request guidance rather than guessing.
+
+---
+
+# AI IMPLEMENTATION LOCK
+
+Artificial Intelligence features are disabled during Phase 1.
+
+The AI coding agent must not implement:
+
+* AI Chatbots
+* Recommendation Engines
+* Semantic Search
+* Visual Search
+* AI Product Descriptions
+* AI Agents
+* LLM Integrations
+* RAG
+* Vector Databases
+* Predictive Analytics
+
+Before any AI-related work begins, the AI must display:
+
+"The core eCommerce platform has been completed successfully.
+
+AI integration is optional.
+
+Would you like to begin Phase 2?
+
+No AI features will be implemented until explicit approval is received."
+
+If approval is not granted, all AI-related implementation must remain disabled.
+
+
+# PART 2
+
+# GLOBAL ENGINEERING STANDARDS
+
+These standards apply to every source file, service, module, component, API, database object, infrastructure resource, and test case.
+
+These rules are mandatory.
+
+No implementation may violate these standards.
+
+---
+
+# PROJECT DIRECTORY STRUCTURE
+
+The project shall follow a predictable and scalable directory structure.
+
+Every module must have a single responsibility.
+
+The AI coding agent must never create arbitrary folders.
+
+All files shall belong to an approved module.
+
+Folder names must be:
+
+* lowercase
+* kebab-case
+* descriptive
+* consistent
+
+Example:
+
+app/
+components/
+features/
+hooks/
+lib/
+types/
+server/
+api/
+database/
+config/
+public/
+styles/
+tests/
+scripts/
+docs/
+
+No duplicate folders are permitted.
+
+No temporary folders may remain in production.
+
+---
+
+# FILE NAMING CONVENTION
+
+Every filename must clearly communicate its purpose.
+
+Rules
+
+React Components
+
+PascalCase
+
+Example
+
+ProductCard.tsx
+
+CheckoutSummary.tsx
+
+CategorySidebar.tsx
+
+Utility Functions
+
+camelCase
+
+Example
+
+calculateDiscount.ts
+
+formatCurrency.ts
+
+API Routes
+
+kebab-case
+
+Example
+
+create-order.ts
+
+reset-password.ts
+
+Database Tables
+
+snake_case
+
+Example
+
+order_items
+
+product_images
+
+user_addresses
+
+Database Columns
+
+snake_case
+
+API Endpoints
+
+kebab-case
+
+Example
+
+/forgot-password
+
+/reset-password
+
+/product-details
+
+CSS Variables
+
+kebab-case
+
+Example
+
+--primary-color
+
+--border-radius-large
+
+Never abbreviate names unless universally understood.
+
+Bad
+
+prd.ts
+
+usr.ts
+
+cat.ts
+
+Good
+
+product.ts
+
+customer.ts
+
+category.ts
+
+---
+
+# CODING STANDARDS
+
+The entire project must follow professional software engineering principles.
+
+Mandatory Principles
+
+SOLID
+
+DRY
+
+KISS
+
+YAGNI
+
+Clean Code
+
+Clean Architecture
+
+Composition over Inheritance
+
+Single Responsibility
+
+Dependency Inversion
+
+Fail Fast
+
+Immutable Data where practical
+
+Readable code always takes priority over clever code.
+
+---
+
+# TYPESCRIPT RULES
+
+TypeScript is mandatory.
+
+JavaScript is prohibited.
+
+Rules
+
+Never use:
+
+any
+
+unknown without validation
+
+implicit any
+
+ts-ignore unless approved
+
+Always define:
+
+interfaces
+
+types
+
+return types
+
+function signatures
+
+generic constraints where appropriate
+
+Enable strict mode.
+
+No type errors are permitted.
+
+---
+
+# PYTHON RULES
+
+FastAPI services shall follow:
+
+PEP 8
+
+Type hints on all public functions
+
+Pydantic validation
+
+Dependency Injection
+
+Small focused services
+
+Never place business logic inside route handlers.
+
+Never place SQL inside controllers.
+
+Business logic belongs to services.
+
+Database logic belongs to repositories.
+
+---
+
+# CODE ORGANIZATION
+
+Every module shall have one responsibility.
+
+Example
+
+Authentication
+
+Products
+
+Orders
+
+Inventory
+
+Payments
+
+Shipping
+
+Reviews
+
+Notifications
+
+CMS
+
+Analytics
+
+No module may contain unrelated business logic.
+
+Avoid "God" classes or files.
+
+---
+
+# COMMENTING POLICY
+
+Code should be self-explanatory.
+
+Comments are allowed only when they explain:
+
+Business rules
+
+Complex algorithms
+
+Security considerations
+
+Regulatory requirements
+
+Performance trade-offs
+
+Never comment obvious code.
+
+Bad
+
+// increment i
+
+i++
+
+Good
+
+Explain why a pricing calculation follows a specific business policy.
+
+---
+
+# ERROR HANDLING STANDARD
+
+Errors shall be:
+
+Predictable
+
+Recoverable
+
+Logged
+
+Traceable
+
+Every error must include:
+
+Unique error code
+
+Human-readable message
+
+Developer context
+
+Timestamp
+
+Correlation ID
+
+Never expose:
+
+SQL queries
+
+Stack traces
+
+Secrets
+
+Internal paths
+
+Environment variables
+
+to end users.
+
+---
+
+# LOGGING STANDARD
+
+Every important business action must generate structured logs.
+
+Log events include:
+
+Authentication
+
+Payments
+
+Orders
+
+Inventory changes
+
+Refunds
+
+Administrative actions
+
+Errors
+
+Warnings
+
+Logs must never contain:
+
+Passwords
+
+Tokens
+
+Credit card data
+
+Personally sensitive information beyond operational necessity
+
+All logs shall include:
+
+Timestamp
+
+Request ID
+
+User ID (when applicable)
+
+Service
+
+Severity
+
+Message
+
+---
+
+# GIT WORKFLOW
+
+Main Branches
+
+main
+
+develop
+
+Feature Branches
+
+feature/product-search
+
+feature/checkout
+
+feature/order-history
+
+Bug Fixes
+
+bugfix/payment-timeout
+
+Release Branches
+
+release/v1.0
+
+Hotfix
+
+hotfix/security-patch
+
+Commit Messages
+
+Follow Conventional Commits.
+
+Examples
+
+feat:
+
+fix:
+
+refactor:
+
+docs:
+
+test:
+
+perf:
+
+chore:
+
+Never commit directly to production branches.
+
+---
+
+# DOCUMENTATION STANDARD
+
+Every module must contain documentation.
+
+Public APIs
+
+Documented
+
+Components
+
+Documented
+
+Business Services
+
+Documented
+
+Database Schema
+
+Documented
+
+Configuration
+
+Documented
+
+Documentation must always remain synchronized with implementation.
+
+If implementation changes, documentation must be updated in the same change set.
+
+---
+
+# CONFIGURATION MANAGEMENT
+
+No configuration values may be hardcoded.
+
+All configurable values must use environment variables or centralized configuration.
+
+Examples
+
+API URLs
+
+Secrets
+
+Database Connections
+
+JWT Keys
+
+Storage Buckets
+
+Mail Providers
+
+Payment Providers
+
+Configuration must support:
+
+Development
+
+Testing
+
+Staging
+
+Production
+
+without source code modifications.
+
+---
+
+# DEPENDENCY MANAGEMENT
+
+Every dependency must satisfy at least one business requirement.
+
+Unused dependencies are prohibited.
+
+Before adding any new package, verify:
+
+* Maintenance status
+* Security history
+* License compatibility
+* Community adoption
+* Long-term viability
+
+AI coding agents must not install libraries without explicit justification.
+
+---
+
+# CODE REVIEW POLICY
+
+Every feature must pass review before being considered complete.
+
+The reviewer shall verify:
+
+Correctness
+
+Readability
+
+Performance
+
+Security
+
+Accessibility
+
+Documentation
+
+Testing
+
+Maintainability
+
+Business requirement compliance
+
+A feature failing any review criterion must not proceed to release.
+
+---
+
+# GLOBAL ENGINEERING CHECKLIST
+
+Before marking any task complete, verify:
+
+✓ Requirements satisfied
+
+✓ Code follows architecture
+
+✓ Naming conventions respected
+
+✓ No duplicated logic
+
+✓ Security requirements met
+
+✓ Performance acceptable
+
+✓ Accessibility maintained
+
+✓ Tests written
+
+✓ Documentation updated
+
+✓ No breaking changes introduced
+
+Only after every checklist item passes may the implementation be considered complete.
+
+
+# PART 3
+
+# FRONTEND ENGINEERING CONSTITUTION
+
+The frontend represents the brand.
+
+Every page must communicate quality, trust, performance, and consistency.
+
+The frontend shall never be treated as a collection of pages.
+
+It is a unified Design System.
+
+---
+
+## Frontend Technology Rules
+
+The frontend shall use only:
+
+* Next.js App Router
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Framer Motion
+
+The following are prohibited unless explicitly approved:
+
+* Bootstrap
+* Material UI
+* Ant Design
+* jQuery
+* Inline CSS
+* CSS Framework Mixing
+
+---
+
+## Frontend Architecture
+
+The frontend shall follow Feature-Based Architecture.
+
+Business logic shall never exist inside UI components.
+
+Presentation and business logic must remain separated.
+
+Components
+
+↓
+
+Hooks
+
+↓
+
+Services
+
+↓
+
+API Layer
+
+↓
+
+Backend
+
+Never allow UI components to communicate directly with databases.
+
+---
+
+## Component Rules
+
+Every component must satisfy:
+
+Single Responsibility
+
+Reusable
+
+Composable
+
+Accessible
+
+Responsive
+
+Typed
+
+Documented
+
+Testable
+
+Every component must support:
+
+Loading State
+
+Empty State
+
+Error State
+
+Success State
+
+Disabled State
+
+Responsive State
+
+Dark Mode (future-ready)
+
+---
+
+## Performance Rules
+
+Frontend performance is mandatory.
+
+Targets:
+
+Largest Contentful Paint < 2.5 seconds
+
+Interaction to Next Paint < 200 ms
+
+Cumulative Layout Shift < 0.1
+
+Images:
+
+Lazy loading
+
+Modern formats
+
+Responsive sizing
+
+Optimized delivery
+
+Fonts:
+
+Preload
+
+Subset
+
+Avoid layout shifts
+
+JavaScript:
+
+Code splitting
+
+Dynamic imports
+
+Tree shaking
+
+No unnecessary client-side rendering.
+
+Prefer Server Components whenever possible.
+
+---
+
+## Accessibility Rules
+
+Every screen shall comply with WCAG 2.2 AA.
+
+Mandatory:
+
+Keyboard navigation
+
+Visible focus states
+
+ARIA labels
+
+Semantic HTML
+
+Alt text
+
+Screen reader compatibility
+
+Reduced motion support
+
+Minimum touch targets
+
+Accessibility failures are release blockers.
+
+---
+
+# BACKEND ENGINEERING CONSTITUTION
+
+The backend is responsible for business correctness.
+
+Never compromise architecture for convenience.
+
+---
+
+## Architecture Rules
+
+FastAPI
+
+↓
+
+Routers
+
+↓
+
+Services
+
+↓
+
+Repositories
+
+↓
+
+Database
+
+Business logic belongs inside Services.
+
+Database access belongs inside Repositories.
+
+Route handlers must remain thin.
+
+Controllers shall never contain business rules.
+
+---
+
+## Business Logic Rules
+
+Every business rule shall exist in one location only.
+
+Never duplicate calculations.
+
+Never duplicate validation.
+
+Never duplicate authorization logic.
+
+---
+
+## Validation Rules
+
+All incoming requests must be validated.
+
+Never trust client input.
+
+Validation must occur before business logic.
+
+Return consistent validation errors.
+
+---
+
+## Transaction Rules
+
+Critical operations must be atomic.
+
+Examples:
+
+Checkout
+
+Payment
+
+Refund
+
+Inventory updates
+
+Order creation
+
+Either complete entirely or rollback completely.
+
+Partial writes are prohibited.
+
+---
+
+## Background Processing
+
+Long-running operations must execute asynchronously.
+
+Examples:
+
+Email
+
+Notifications
+
+Invoice generation
+
+Image processing
+
+Report generation
+
+Background jobs must be retryable and idempotent.
+
+---
+
+# DATABASE ENGINEERING CONSTITUTION
+
+The database is the source of truth.
+
+No business logic shall depend on inconsistent data.
+
+---
+
+## Database Rules
+
+Use PostgreSQL.
+
+Normalize where appropriate.
+
+Denormalize only with documented justification.
+
+Every table shall:
+
+Have a primary key.
+
+Use timestamps.
+
+Support auditing where required.
+
+Support soft deletion when appropriate.
+
+---
+
+## Naming Standards
+
+Tables
+
+snake_case
+
+Columns
+
+snake_case
+
+Indexes
+
+idx_table_column
+
+Foreign Keys
+
+fk_table_reference
+
+Unique Constraints
+
+uq_table_column
+
+Primary Keys
+
+pk_table
+
+Naming must remain consistent across the project.
+
+---
+
+## Integrity Rules
+
+Enforce:
+
+Primary Keys
+
+Foreign Keys
+
+Unique Constraints
+
+Check Constraints
+
+Never rely solely on application logic to maintain integrity.
+
+---
+
+## Indexing Rules
+
+Indexes must be created for:
+
+Primary keys
+
+Foreign keys
+
+Frequently filtered columns
+
+Search columns
+
+Sorting columns
+
+Measure performance before adding additional indexes.
+
+---
+
+## Migration Rules
+
+All schema changes must use version-controlled migrations.
+
+Never modify production schema manually.
+
+Every migration must support rollback.
+
+---
+
+## Backup Rules
+
+Daily automated backups.
+
+Point-in-time recovery.
+
+Regular restore testing.
+
+Backups must be encrypted.
+
+---
+
+# API ENGINEERING CONSTITUTION
+
+The API is the contract between frontend and backend.
+
+Breaking the contract is prohibited.
+
+---
+
+## API Principles
+
+RESTful design
+
+Predictable endpoints
+
+Consistent naming
+
+Consistent responses
+
+Versioning support
+
+Proper HTTP methods
+
+No undocumented endpoints
+
+---
+
+## Endpoint Standards
+
+Examples:
+
+GET /products
+
+GET /products/{id}
+
+POST /orders
+
+PATCH /orders/{id}
+
+DELETE /wishlist/{id}
+
+Endpoints must use nouns rather than verbs wherever possible.
+
+---
+
+## Response Standards
+
+Every response shall follow a consistent structure.
+
+Successful responses:
+
+* status
+* message
+* data
+* metadata (if applicable)
+
+Error responses:
+
+* status
+* error_code
+* message
+* details (optional)
+* request_id
+
+Never expose internal implementation details.
+
+---
+
+## Versioning Rules
+
+APIs must support versioning.
+
+Example:
+
+/api/v1/
+
+Future versions must not silently break existing clients.
+
+Deprecation must be documented.
+
+---
+
+## Authentication Rules
+
+Every protected endpoint must verify authentication.
+
+Authorization must follow least privilege.
+
+Never trust client roles.
+
+Authorization must always be validated on the server.
+
+---
+
+## Rate Limiting
+
+Public APIs shall be rate limited.
+
+Sensitive endpoints require stricter limits.
+
+Authentication endpoints must implement brute-force protection.
+
+---
+
+## API Documentation
+
+Every endpoint must include:
+
+Purpose
+
+Authentication requirements
+
+Parameters
+
+Validation rules
+
+Request examples
+
+Response examples
+
+Error codes
+
+Rate limits
+
+Related endpoints
+
+Documentation must always match implementation.
+
+---
+
+# GLOBAL QUALITY STANDARDS
+
+Every feature delivered by engineers or AI coding agents must satisfy all of the following before completion:
+
+✓ Business requirements fulfilled
+
+✓ Architecture followed
+
+✓ Coding standards respected
+
+✓ UI consistency maintained
+
+✓ Accessibility compliant
+
+✓ Security verified
+
+✓ Performance targets achieved
+
+✓ Database integrity preserved
+
+✓ API contract maintained
+
+✓ Tests implemented
+
+✓ Documentation updated
+
+✓ No critical defects
+
+No feature may be considered complete until every quality requirement has been satisfied.
+
