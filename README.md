@@ -6,7 +6,8 @@
 | | Contributor | GitHub | Lines added | Commits |
 | :---: | :--- | :--- | ---: | ---: |
 |  | **Atelier** | — | 35,983 | **1** |
-| | | **Total** | **35,983** | **1** |
+| <img src="https://github.com/MusfiqurTuhin.png?size=48" width="34" height="34" alt="" /> | **MusfiqurTuhin** | [@MusfiqurTuhin](https://github.com/MusfiqurTuhin) | 150 | **1** |
+| | | **Total** | **36,133** | **2** |
 <!-- CONTRIBUTORS:END -->
 
 <sub>Auto-updated on every push to `main` by [`.github/workflows/contributors.yml`](.github/workflows/contributors.yml) — commits + lines-added per author via `git shortlog` / `git log --numstat` (identities in [`.mailmap`](.mailmap); merges & lockfiles excluded).</sub>
